@@ -10,7 +10,7 @@ import gtmNoscriptPlugin from './plugins/gtm-noscript';
 // AI Gateway and AI Workspace (agent-control-plane) are on their own branches.
 
 const config: Config = {
-  title: 'WSO2 Agent Manager',
+  title: 'Choreo Agent Management',
   tagline: 'Run, govern, observe, evaluate, and secure AI agents at scale',
   favicon: 'img/WSO2-Logo.png',
 
@@ -56,14 +56,14 @@ const config: Config = {
           {
             '@type': 'Organization',
             '@id': 'https://wso2.com/#organization',
-            name: 'WSO2 LLC',
+            name: 'Choreo Labs LLC',
             url: 'https://wso2.com',
             logo: 'https://wso2.com/agent-platform/docs/img/WSO2-Logo.png',
           },
           {
             '@type': 'WebSite',
             '@id': 'https://wso2.com/agent-platform/docs/cloud/#website',
-            name: 'WSO2 Agent Manager Cloud Documentation',
+            name: 'Choreo Agent Management Documentation',
             url: 'https://wso2.com/agent-platform/docs/cloud/',
             inLanguage: 'en',
             publisher: {'@id': 'https://wso2.com/#organization'},
@@ -183,7 +183,7 @@ const config: Config = {
     // Replace with your project's social card
     // image: 'img/amp-social-card.png',
     metadata: [
-      {property: 'og:site_name', content: 'WSO2 Agent Manager'},
+      {property: 'og:site_name', content: 'Choreo Agent Management'},
       {property: 'og:type', content: 'website'},
     ],
     algolia: {
@@ -202,7 +202,7 @@ const config: Config = {
     navbar: {
       logo: {
         href: '/get-started/what-is-amp',
-        alt: 'WSO2 Agent Manager Logo',
+        alt: 'Choreo Agent Management Logo',
         src: 'img/WSO2 Agent Manager Logo_Black.svg',
         srcDark: 'img/WSO2 Agent Manager Logo_white.svg',
       },
@@ -260,7 +260,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} WSO2 LLC. Licensed under Apache License 2.0.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Choreo Labs LLC. Licensed under Apache License 2.0.`,
     },
     prism: {
       theme: prismThemes.github,
