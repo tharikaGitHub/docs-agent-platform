@@ -240,27 +240,27 @@ const sidebars: SidebarsConfig = {
             {
               "type": "doc",
               "id": "agent-control-plane/administer/projects",
-              "label": "Projects"
+              "label": "Manage Projects"
             },
             {
               "type": "doc",
               "id": "agent-control-plane/administer/gateways",
-              "label": "Gateways"
+              "label": "Manage Gateways"
             },
             {
               "type": "doc",
               "id": "agent-control-plane/administer/identity-providers",
-              "label": "Identity Providers"
+              "label": "Manage Identity Providers"
             },
             {
               "type": "doc",
               "id": "agent-control-plane/administer/llm-service-providers",
-              "label": "LLM Service Providers"
+              "label": "Manage LLM Service Providers"
             },
             {
               "type": "doc",
               "id": "agent-control-plane/administer/agent-identity-groups-and-roles",
-              "label": "Agent Identity Groups and Roles"
+              "label": "Manage Agent Identity Groups and Roles"
             }
           ]
         }
