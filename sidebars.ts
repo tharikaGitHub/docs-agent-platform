@@ -180,14 +180,55 @@ const sidebars: SidebarsConfig = {
           "collapsed": true,
           "items": [
             {
-              "type": "doc",
-              "id": "agent-control-plane/evaluation/evaluators",
-              "label": "Evaluators"
+              "type": "category",
+              "label": "Evaluators",
+              "collapsed": true,
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "agent-control-plane/evaluation/evaluators",
+                  "label": "Overview"
+                },
+                {
+                  "type": "category",
+                  "label": "Create a Custom Evaluator",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "type": "doc",
+                      "id": "agent-control-plane/evaluation/evaluators/create-a-code-evaluator",
+                      "label": "Code Evaluator"
+                    },
+                    {
+                      "type": "doc",
+                      "id": "agent-control-plane/evaluation/evaluators/create-an-llm-judge-evaluator",
+                      "label": "LLM Judge Evaluator"
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "type": "doc",
-              "id": "agent-control-plane/evaluation/monitors",
-              "label": "Monitors"
+              "type": "category",
+              "label": "Monitors",
+              "collapsed": true,
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "agent-control-plane/evaluation/monitors",
+                  "label": "Overview"
+                },
+                {
+                  "type": "doc",
+                  "id": "agent-control-plane/evaluation/monitors/create-a-monitor",
+                  "label": "Create a Monitor"
+                },
+                {
+                  "type": "doc",
+                  "id": "agent-control-plane/evaluation/monitors/view-monitor-results",
+                  "label": "View Monitor Results"
+                }
+              ]
             }
           ]
         },
